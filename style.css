@@ -1,5 +1,10 @@
 /*  Add your styling here */
 
+body{
+    margin: 10px;
+    padding: 10px;
+}
+
 .container-fluid {
     background-color: white;
     border-style: dashed;
@@ -11,7 +16,12 @@
     );
 }
 
-.col-recipe h4 {
+.col-recipe {
+    background-image: url(images/brooke-lark-pGM4sjt_BdQ-unsplash.jpg);
+    background-repeat: no-repeat;
+}
+
+.col-recipe h4 h5 {
     font-size: 15px;
     text-align: center;
 }
@@ -24,10 +34,13 @@
 
 @media (min-width: 540px) {
     .container-fluid {
-        font-size: 30px;        
+        font-size: 30px;
     }
-    .col-recipe h4 {
-        font size: 25px;
+    .col-recipe h4 h5 {
+        font-size: 2em;
+    }
+    .col-recipe p {
+        font-size: 1em;
     }
 }
 
@@ -36,6 +49,9 @@
         font-size: 50px;    
     }
     .col-recipe h4 {
-        font size: 30px;
+        font-size: 3em;
+    }
+    .col-recipe p {
+        font-size: 1.5em;
     }
 }
