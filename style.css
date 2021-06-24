@@ -4,23 +4,38 @@
     background-color: white;
     border-style: dashed;
     border-color: #f72585;
-    text-align: center;
     color: #7209b7;
     font-size: 20px;
     font-weight: bold;
+    background-image: url(https://images.unsplash.com/photo-1521309918586-feb7aa79a61b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80
+    );
 }
+
+.col-recipe h4 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.col-recipe p {
+    font-size: 10px;
+}
+
+/* Media queries */
 
 @media (min-width: 540px) {
     .container-fluid {
         font-size: 30px;        
     }
-    
+    .col-recipe h4 {
+        font size: 25px;
+    }
 }
 
 @media (min-width: 900px) {
     .container-fluid {
         font-size: 50px;    
-        
     }
-    
+    .col-recipe h4 {
+        font size: 30px;
+    }
 }
