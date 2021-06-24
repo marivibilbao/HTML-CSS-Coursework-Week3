@@ -3,6 +3,7 @@
 body{
     margin: 10px;
     padding: 10px;
+    background-color: #bde0fe;
 }
 
 .container-fluid {
@@ -14,14 +15,14 @@ body{
     font-weight: bold;
     background-image: url(https://images.unsplash.com/photo-1521309918586-feb7aa79a61b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80
     );
+    display: flex;
 }
 
 .col-recipe {
-    background-image: url(images/brooke-lark-pGM4sjt_BdQ-unsplash.jpg);
-    background-repeat: no-repeat;
+    background-color: #ffc6ff;
 }
 
-.col-recipe h4 h5 {
+.col-recipe h4 {
     font-size: 15px;
     text-align: center;
 }
@@ -36,7 +37,7 @@ body{
     .container-fluid {
         font-size: 30px;
     }
-    .col-recipe h4 h5 {
+    .col-recipe h4 {
         font-size: 2em;
     }
     .col-recipe p {
