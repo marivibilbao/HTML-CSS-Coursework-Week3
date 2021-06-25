@@ -61,6 +61,11 @@ body {
     align-items: center;
 }
 
+.col-image p {
+    display: flex;
+    align-items: center;
+}
+
 .col-type {
     font-size: 10px;
     font-family: 'Benne';
@@ -79,6 +84,12 @@ body {
     line-height: 1;
     text-align: right;
     list-style: none;
+}
+
+.column {
+    flex: 0%;
+    padding: 4px;
+    background-color: #adb5bd;
 }
 
 /* Footer */
