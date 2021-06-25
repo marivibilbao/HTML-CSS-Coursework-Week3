@@ -3,7 +3,7 @@
 body{
     margin: 10px;
     padding: 10px;
-    background-color: #bde0fe;
+    background-color: #deaaff;
 }
 
 .container-fluid {
@@ -19,13 +19,16 @@ body{
 
 .col-recipe {
     background-color: #ffc6ff;
+    padding-top: 10px;
+    padding: 5px;
 }
 
-.col-recipe h4 {
+.titles {
     font-size: 10px;
     text-align: center;
     line-height: 1;
     font-family: 'Benne', cursive;
+    line-height: 0px;
 }
 
 .col-recipe p {
@@ -35,6 +38,36 @@ body{
     font-family: 'Benne';
     line-height: 1;
     text-align: justify;
+}
+
+.col-image {
+    font-size: 10px;
+    text-align: center;
+    line-height: 1;
+    font-family: 'Benne', cursive;
+    background-color: #feeafa;
+    padding: 5px;
+    line-height: 1;
+}
+
+.col-type {
+    font-size: 10px;
+    font-family: 'Benne';
+    line-height: 1;
+    text-align: justify;
+    background-color: #d0d1ff;
+    padding-top: 10px;
+    padding: 5px;
+}
+
+.list-type {
+    font-size: 10px;
+    margin: 3px;
+    padding: 3px;
+    font-family: 'Benne';
+    line-height: 1;
+    text-align: justify;
+    list-style: none;
 }
 
 /* Footer */
@@ -63,11 +96,27 @@ footer {
     .container-fluid {
         font-size: 30px;
     }
-    .col-recipe h4 {
-        font-size: 2em;
+    .col-recipe {
+        padding-top: 30px;
+        }
+    .titles {
+        font-size: 1.5em;
     }
     .col-recipe p {
         font-size: 1em;
+        line-height: 1.5;
+    }
+    .col-image {
+        font-size: 1.5em;
+    }
+    .col-type {
+        font-size: 1em;
+        line-height: 1.5;
+        padding-top: 30px;
+    }
+    .list-type {
+        font-size: 1em;
+        line-height: 1.5;
     }
 }
 
@@ -75,10 +124,26 @@ footer {
     .container-fluid {
         font-size: 50px;    
     }
-    .col-recipe h4 {
-        font-size: 3em;
+    .col-recipe {
+        padding-top: 30px;
+        }
+    .titles{
+        font-size: 2em;
     }
     .col-recipe p {
         font-size: 1.5em;
+        line-height: 1.5;
+    }
+    .col-image {
+        font-size: 2em;
+    }
+    .col-type {
+        font-size: 1em;
+        line-height: 1.5;
+        padding-top: 30px;
+    }
+    .list-type {
+        font-size: 1.5em;
+        line-height: 1.5;
     }
 }
