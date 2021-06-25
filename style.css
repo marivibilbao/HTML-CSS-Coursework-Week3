@@ -55,17 +55,6 @@ body {
     display: flex;
 }
 
-.col-image .titles {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
-
-.col-image p {
-    display: flex;
-    align-items: center;
-}
-
 .col-type {
     font-size: 10px;
     font-family: 'Benne';
@@ -125,12 +114,9 @@ body {
     .titles {
         font-size: 1.5em;
     }
-    .col-recipe p {
+    .column {
         font-size: 1em;
         line-height: 1.5;
-    }
-    .col-image {
-        font-size: 1.5em;
         padding-top: 30px;
     }
     .col-type {
@@ -164,8 +150,10 @@ body {
         font-size: 1.5em;
         line-height: 1.5;
     }
-    .col-image {
-        font-size: 2em;
+    .column {
+        font-size: 1em;
+        line-height: 1.5;
+        padding-top: 30px;
     }
     .col-type {
         font-size: 1em;
