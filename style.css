@@ -11,9 +11,9 @@ body{
     border-color: #f72585;
     color: #7209b7;
     font-size: 20px;
-    font-weight: bold;
     background-image: url(https://images.unsplash.com/photo-1521309918586-feb7aa79a61b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80
     );
+    font-family: 'Jomhuria';
     display: flex;
 }
 
@@ -22,9 +22,10 @@ body{
 }
 
 .col-recipe h4 {
-    font-size: 15px;
+    font-size: 10px;
     text-align: center;
     line-height: 1;
+    font-family: 'Benne', cursive;
 }
 
 .col-recipe p {
@@ -33,6 +34,7 @@ body{
     padding: 3px;
     font-family: 'Benne';
     line-height: 1;
+    text-align: justify;
 }
 
 /* Footer */
@@ -56,11 +58,7 @@ footer {
     justify-content: space-between;
 }
 
-    
-
-
 /* Media queries */
-
 @media (min-width: 540px) {
     .container-fluid {
         font-size: 30px;
