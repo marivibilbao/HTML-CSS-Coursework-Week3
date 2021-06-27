@@ -6,7 +6,7 @@ body {
     background-color: #deaaff;
 }
 
-/* Navbar */
+/* Navbar*/
 .navbar-brand {
     font-size: 2rem;
     font-family: 'Jomhuria';
@@ -142,7 +142,7 @@ body {
     }
     .col-recipe {
         padding-top: 30px;
-        }
+    }
     .titles{
         font-size: 2em;
     }
