@@ -3,7 +3,6 @@
 body {
     margin: 10px;
     padding: 10px;
-    background-color: #deaaff;
 }
 
 /* Navbar*/
@@ -22,13 +21,12 @@ body {
 }
 
 .col-recipe {
-    background-color: #ffc6ff;
     padding-top: 10px;
     padding: 5px;
 }
 
 .titles {
-    font-size: 10px;
+    font-size: 20px;
     text-align: center;
     line-height: 1;
     font-family: 'Benne', cursive;
@@ -36,7 +34,7 @@ body {
 }
 
 .col-recipe p {
-    font-size: 10px;
+    font-size: 15px;
     margin: 3px;
     padding: 3px;
     font-family: 'Benne';
@@ -45,23 +43,27 @@ body {
 }
 
 .col-image {
-    font-size: 10px;
+    font-size: 20px;
     text-align: center;
     line-height: 1;
     font-family: 'Benne', cursive;
-    background-color: #feeafa;
     padding: 5px;
     line-height: 1;
     display: flex;
 }
 
 .col-type {
-    font-size: 10px;
+    font-size: 20px;
     font-family: 'Benne';
     line-height: 1;
     text-align: right;
     background-color: #d0d1ff;
     padding-top: 10px;
+    padding: 5px;
+}
+
+.colum-2 {
+    flex: 0%;
     padding: 5px;
 }
 
@@ -103,13 +105,14 @@ body {
 /* Media queries */
 @media (min-width: 540px) {
     .nav-item {
-        font-size: 30px;
+        font-size: 20px;
     }
-    .navbar-brand {
-        font-size: 30px;
+    a.navbar-brand {
+        font-size: 50px;
     }
     .col-recipe {
-        padding-top: 30px;
+        padding-top: 20px;
+        display: none;
         }
     .titles {
         font-size: 1.5em;
@@ -131,13 +134,27 @@ body {
     .footer-ul {
         font-size: 1.5em;
     }
+    .row-2 {
+        display: flex;
+    }
+    .row-3 {
+        display: flex;
+        background-color: #d0d1ff;
+    }
+    .colum-3 {
+        flex: 0%;
+        padding: 5px;
+    }
+    .small {
+        display: none;
+    }
 }
 
 @media (min-width: 900px) {
     .nav-item {
         font-size: 30px;
     }
-    .navbar-brand {
+    a.navbar-brand {
         font-size: 50px;    
     }
     .col-recipe {
@@ -155,6 +172,9 @@ body {
         line-height: 1.5;
         padding-top: 30px;
     }
+    .colum-2 {
+        padding-top: 50px;
+    }
     .col-type {
         font-size: 1em;
         line-height: 1.5;
@@ -166,5 +186,25 @@ body {
     }
     .footer-ul {
         font-size: 1.5em;
+    }
+    .row-3 {
+        display: flex;
+        background-color: #d0d1ff;
+    }
+    .colum-3 {
+        flex: 0%;
+        padding: 5px;
+    }
+    .small {
+        display: none;
+    }
+}
+
+@media (max-width: 540px) {
+    .row-2 {
+        display: none;
+    }
+    .row-3 {
+        display: none;
     }
 }
